@@ -1,0 +1,1092 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(0, 0, 0);
+}
+header ul {
+  display: flex;
+  gap: 40px;
+}
+header ul li {
+  list-style: none;
+}
+header ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+header .link {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+header .link a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+header .link button {
+  padding: 15px 20px;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  header {
+    display: none;
+  }
+}
+.sell {
+  width: 100%;
+  background-image: url("/images/Rectangle (4).jpg");
+  background-size: cover;
+  background-position: bottom;
+  padding: 80px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+}
+.sell .title {
+  display: flex;
+  gap: 50px;
+}
+.sell .title h2 {
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+.sell h1 {
+  width: 500px;
+  font-size: 70px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+.sell p {
+  width: 500px;
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+.sell button {
+  padding: 15px 20px;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+@media (min-width: 769.1px) and (max-width: 990px) {
+  .sell h1 {
+    font-size: 40px;
+    width: 40%;
+  }
+  .sell p {
+    font-size: 18px;
+    width: 40%;
+  }
+  .sell button {
+    padding: 10px 15px;
+    font-size: 12px;
+  }
+}
+@media (min-width: 447px) and (max-width: 769px) {
+  .sell .title {
+    gap: 20px;
+  }
+  .sell .title h2 {
+    font-size: 14px;
+  }
+  .sell h1 {
+    font-size: 35px;
+    width: 40%;
+  }
+  .sell p {
+    font-size: 16px;
+    width: 40%;
+  }
+  .sell button {
+    padding: 10px 15px;
+    font-size: 10px;
+  }
+}
+@media (max-width: 447px) {
+  .sell .title {
+    gap: 10px;
+  }
+  .sell .title h2 {
+    font-size: 12px;
+  }
+  .sell h1 {
+    font-size: 30px;
+    width: 40%;
+  }
+  .sell p {
+    font-size: 14px;
+    width: 40%;
+  }
+  .sell button {
+    padding: 10px 15px;
+    font-size: 10px;
+  }
+}
+.tools {
+  width: 100%;
+  padding: 100px 10px;
+  background-color: rgb(230, 230, 230);
+}
+.tools .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.tools .title h1 {
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+.tools .title p {
+  width: 600px;
+  text-align: center;
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+.tools .box {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.tools .box .box1 {
+  margin-top: 100px;
+}
+.tools .box .box1 h1 {
+  margin-top: 40px;
+  font-size: 28px;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+.tools .box .box1 p {
+  margin-top: 10px;
+  width: 427px;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+.tools .box .box1 img {
+  width: 427px;
+}
+
+@media (min-width: 447px) and (max-width: 769px) {
+  .tools .title p {
+    width: 80%;
+    text-align: center;
+    font-size: 18px;
+  }
+  .tools .title h1 {
+    text-align: center;
+    font-size: 35px;
+  }
+}
+@media (max-width: 447px) {
+  .tools .title p {
+    width: 80%;
+    text-align: center;
+    font-size: 16px;
+  }
+  .tools .title h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .tools .box .box1 p {
+    width: 100%;
+    font-size: 16px;
+  }
+  .tools .box .box1 img {
+    width: 100%;
+  }
+}
+.imagine {
+  width: 100%;
+  background-image: url("/images/Rectangle (3).jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 125px 10px;
+}
+.imagine .title {
+  width: 360px;
+  text-align: center;
+  margin: 0px auto;
+}
+.imagine .title h1 {
+  font-size: 56px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+.imagine .title p {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+.imagine .title a {
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+
+@media (max-width: 447px) {
+  .imagine .title {
+    width: 90%;
+  }
+  .imagine .title h1 {
+    font-size: 35px;
+  }
+  .imagine .title p {
+    font-size: 18px;
+  }
+}
+.engage {
+  width: 100%;
+  padding: 100px 10px 0px 10px;
+  background-color: rgb(96, 119, 124);
+}
+.engage .title {
+  width: 600px;
+  margin: 0px auto;
+  text-align: center;
+}
+.engage .title h1 {
+  font-size: 56px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+.engage .title p {
+  margin-top: 25px;
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgb(255, 255, 255);
+}
+
+@media (min-width: 447px) and (max-width: 769px) {
+  .engage .title {
+    width: 80%;
+  }
+  .engage .title h1 {
+    font-size: 35px;
+  }
+  .engage .title p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 447px) {
+  .engage .title {
+    width: 80%;
+  }
+  .engage .title h1 {
+    font-size: 30px;
+  }
+  .engage .title p {
+    font-size: 18px;
+  }
+}
+.promote {
+  width: 100%;
+  padding: 120px 40px 0px 40px;
+  background-color: rgb(96, 119, 124);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+.promote .title {
+  width: 520px;
+}
+.promote .title h1 {
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+.promote .title p {
+  margin-top: 25px;
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+.promote img {
+  width: 660px;
+  height: 413px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (min-width: 769.1px) and (max-width: 990px) {
+  .promote .title h1 {
+    font-size: 30px;
+  }
+  .promote .title p {
+    font-size: 17px;
+  }
+  .promote img {
+    width: 50%;
+    height: 50%;
+  }
+}
+@media (min-width: 447px) and (max-width: 769px) {
+  .promote .title h1 {
+    font-size: 20px;
+  }
+  .promote .title p {
+    font-size: 14px;
+  }
+  .promote img {
+    width: 50%;
+    height: 70%;
+  }
+}
+@media (max-width: 447px) {
+  .promote {
+    flex-wrap: wrap-reverse;
+  }
+  .promote .title h1 {
+    font-size: 18px;
+  }
+  .promote .title p {
+    font-size: 12px;
+  }
+  .promote img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.share {
+  width: 100%;
+  padding: 120px 40px 0px 40px;
+  background-color: rgb(96, 119, 124);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+.share .title {
+  width: 520px;
+}
+.share .title h1 {
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+.share .title p {
+  margin-top: 25px;
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+
+@media (min-width: 769.1px) and (max-width: 990px) {
+  .share .title h1 {
+    font-size: 30px;
+  }
+  .share .title p {
+    font-size: 17px;
+  }
+  .share img {
+    width: 50%;
+    height: 50%;
+  }
+}
+@media (min-width: 447px) and (max-width: 769px) {
+  .share .title h1 {
+    font-size: 20px;
+  }
+  .share .title p {
+    font-size: 14px;
+  }
+  .share img {
+    width: 50%;
+    height: 70%;
+  }
+}
+@media (max-width: 447px) {
+  .share {
+    flex-wrap: wrap;
+  }
+  .share .title h1 {
+    font-size: 18px;
+  }
+  .share .title p {
+    font-size: 12px;
+  }
+  .share img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.build {
+  width: 100%;
+  padding: 120px 40px 0px 40px;
+  background-color: rgb(96, 119, 124);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+.build .title {
+  width: 520px;
+}
+.build .title h1 {
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+.build .title p {
+  margin-top: 25px;
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgb(255, 255, 255);
+}
+
+@media (min-width: 769.1px) and (max-width: 990px) {
+  .build .title h1 {
+    font-size: 30px;
+  }
+  .build .title p {
+    font-size: 17px;
+  }
+  .build img {
+    width: 50%;
+    height: 50%;
+  }
+}
+@media (min-width: 447px) and (max-width: 769px) {
+  .build .title h1 {
+    font-size: 20px;
+  }
+  .build .title p {
+    font-size: 14px;
+  }
+  .build img {
+    width: 50%;
+    height: 70%;
+  }
+}
+@media (max-width: 447px) {
+  .build {
+    flex-wrap: wrap-reverse;
+  }
+  .build .title h1 {
+    font-size: 18px;
+  }
+  .build .title p {
+    font-size: 12px;
+  }
+  .build img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.integrate {
+  width: 100%;
+  padding: 120px 40px;
+  background-color: rgb(96, 119, 124);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+.integrate .title {
+  width: 520px;
+}
+.integrate .title h1 {
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+.integrate .title p {
+  margin-top: 25px;
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgb(255, 255, 255);
+}
+
+@media (min-width: 769.1px) and (max-width: 990px) {
+  .integrate .title h1 {
+    font-size: 30px;
+  }
+  .integrate .title p {
+    font-size: 17px;
+  }
+  .integrate img {
+    width: 50%;
+    height: 50%;
+  }
+}
+@media (min-width: 447px) and (max-width: 769px) {
+  .integrate .title h1 {
+    font-size: 20px;
+  }
+  .integrate .title p {
+    font-size: 14px;
+  }
+  .integrate img {
+    width: 50%;
+    height: 70%;
+  }
+}
+@media (max-width: 447px) {
+  .integrate {
+    flex-wrap: wrap;
+  }
+  .integrate .title h1 {
+    font-size: 18px;
+  }
+  .integrate .title p {
+    font-size: 12px;
+  }
+  .integrate img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.protect {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0px 40px;
+  justify-content: space-between;
+  gap: 15px;
+}
+.protect img {
+  width: 660px;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.protect .title {
+  width: 510px;
+}
+.protect .title h1 {
+  font-size: 56px;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+.protect .title p {
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+@media (min-width: 769.1px) and (max-width: 990px) {
+  .protect img {
+    width: 50%;
+    height: 50%;
+  }
+  .protect .title h1 {
+    font-size: 35px;
+  }
+  .protect .title p {
+    font-size: 20px;
+  }
+}
+@media (min-width: 447px) and (max-width: 769px) {
+  .protect img {
+    width: 50%;
+    height: 100%;
+  }
+  .protect .title h1 {
+    font-size: 25px;
+  }
+  .protect .title p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 447px) {
+  .protect img {
+    width: 100%;
+    height: 100%;
+  }
+  .protect .title h1 {
+    font-size: 20px;
+  }
+  .protect .title p {
+    font-size: 12px;
+  }
+  .protect {
+    flex-wrap: wrap;
+  }
+}
+.member {
+  width: 100%;
+  padding: 80px 40px;
+  background-color: rgb(96, 119, 124);
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+.member .title {
+  width: 540px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+}
+.member .title p {
+  font-size: 28px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+.member .title h1 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+.member .title a {
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.27);
+}
+.member img {
+  width: 640px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (min-width: 769.1px) and (max-width: 990px) {
+  .member img {
+    width: 50%;
+  }
+  .member .title p {
+    font-size: 20px;
+  }
+  .member .title h1 {
+    font-size: 16px;
+  }
+  .member .title a {
+    font-size: 16px;
+  }
+}
+@media (min-width: 447px) and (max-width: 769px) {
+  .member img {
+    width: 50%;
+  }
+  .member .title p {
+    font-size: 18px;
+  }
+  .member .title h1 {
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  .member .title a {
+    font-size: 14px;
+  }
+}
+@media (max-width: 447px) {
+  .member img {
+    width: 100%;
+  }
+  .member .title p {
+    font-size: 15px;
+  }
+  .member .title h1 {
+    margin-bottom: 0px;
+    font-size: 12px;
+  }
+  .member .title a {
+    font-size: 12px;
+  }
+  .member {
+    flex-wrap: wrap-reverse;
+  }
+}
+.how {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  background-color: black;
+  padding: 80px 20px;
+}
+.how .title1 {
+  width: 500px;
+}
+.how .title1 h1 {
+  margin-bottom: 20px;
+  font-size: 56px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+.how .title1 a {
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+.how .title2 {
+  width: 550px;
+}
+.how .title2 ol {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.how .title2 ol li {
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+
+@media (min-width: 447px) and (max-width: 769px) {
+  .how .title1 h1 {
+    font-size: 35px;
+  }
+  .how .title1 a {
+    font-size: 16px;
+  }
+  .how .title2 ol li {
+    font-size: 20px;
+  }
+}
+@media (max-width: 447px) {
+  .how .title1 h1 {
+    font-size: 30px;
+  }
+  .how .title1 a {
+    font-size: 14px;
+  }
+  .how .title2 ol li {
+    font-size: 16px;
+  }
+}
+.frequent {
+  width: 100%;
+  padding: 80px 10px;
+  background-color: black;
+}
+.frequent .wrapper {
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.frequent .wrapper .wrapper2 {
+  width: 900px;
+}
+.frequent .wrapper .wrapper2 .line {
+  margin: 20px 0px;
+  width: 100%;
+  border: 0.5px solid rgba(202, 202, 202, 0.3);
+}
+.frequent .wrapper .wrapper2 .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+.frequent .wrapper .wrapper2 .title p {
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: #fff;
+}
+.frequent .wrapper .wrapper2 .title h1 {
+  color: #fff;
+  font-size: 48px;
+}
+.frequent .wrapper h2 {
+  width: 310px;
+  text-align: center;
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: 400;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+@media (min-width: 769.1px) and (max-width: 990px) {
+  .frequent .wrapper .wrapper2 {
+    width: 80%;
+  }
+}
+@media (min-width: 447px) and (max-width: 769px) {
+  .frequent .wrapper .wrapper2 {
+    width: 80%;
+  }
+  .frequent .wrapper .wrapper2 .title p {
+    font-size: 18px;
+  }
+  .frequent .wrapper .wrapper2 .title h1 {
+    font-size: 35px;
+  }
+  .frequent .wrapper h2 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 447px) {
+  .frequent .wrapper .wrapper2 {
+    width: 90%;
+  }
+  .frequent .wrapper .wrapper2 .title p {
+    font-size: 16px;
+  }
+  .frequent .wrapper .wrapper2 .title h1 {
+    font-size: 30px;
+  }
+  .frequent .wrapper h2 {
+    font-size: 25px;
+  }
+}
+.award {
+  width: 100%;
+  padding: 80px 40px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: black;
+}
+.award .title {
+  display: flex;
+  flex-direction: column;
+  width: 534px;
+  margin: 0px auto;
+}
+.award .title h1 {
+  font-size: 56px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+.award .title p {
+  margin-top: 25px;
+  font-size: 24px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+.award .title a {
+  margin-top: 20px;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+
+@media (min-width: 769.1px) and (max-width: 990px) {
+  .award .title h1 {
+    font-size: 40px;
+  }
+  .award .title p {
+    font-size: 20px;
+  }
+  .award .title a {
+    font-size: 15px;
+  }
+  .award img {
+    width: 50%;
+    height: 50%;
+  }
+}
+@media (min-width: 447px) and (max-width: 769px) {
+  .award .title h1 {
+    font-size: 25px;
+  }
+  .award .title p {
+    font-size: 14px;
+  }
+  .award .title a {
+    font-size: 12px;
+  }
+  .award img {
+    width: 50%;
+    height: 50%;
+  }
+}
+@media (max-width: 447px) {
+  .award .title h1 {
+    font-size: 23px;
+  }
+  .award .title p {
+    font-size: 14px;
+  }
+  .award .title a {
+    font-size: 12px;
+  }
+  .award img {
+    width: 100%;
+    height: 100%;
+  }
+  .award {
+    flex-wrap: wrap;
+  }
+}
+.last {
+  width: 100%;
+  padding: 80px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  background-color: black;
+}
+.last p {
+  width: 720px;
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+.last a {
+  padding: 18px 25px;
+  font-size: 12px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  background-color: #fff;
+}
+
+@media (min-width: 769.1px) and (max-width: 990px) {
+  .last p {
+    font-size: 30px;
+  }
+  .last a {
+    font-size: 12px;
+  }
+  .last {
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 447px) and (max-width: 769px) {
+  .last p {
+    font-size: 25px;
+  }
+  .last a {
+    font-size: 10px;
+  }
+  .last {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 447px) {
+  .last p {
+    font-size: 25px;
+  }
+  .last a {
+    font-size: 8px;
+  }
+  .last {
+    flex-wrap: wrap;
+  }
+}
+footer {
+  width: 100%;
+  padding: 80px 40px;
+  display: flex;
+  gap: 70px;
+  flex-wrap: wrap;
+  background-color: black;
+}
+footer .logo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .logo select {
+  padding: 10px 15px;
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: 400;
+  background-color: rgb(26, 26, 26);
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+}
+footer .box1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .box1 h1 {
+  margin-bottom: 17px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+footer .box1 ul {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+
+@media (max-width: 447px) {
+  footer .logo .select {
+    font-size: 10px;
+  }
+  footer .box1 h1 {
+    font-size: 12px;
+  }
+  footer .box1 ul {
+    font-size: 12px;
+  }
+}/*# sourceMappingURL=style.css.map */
